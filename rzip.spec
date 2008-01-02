@@ -10,6 +10,7 @@ Source0: %{name}-%{version}.tar.bz2
 URL: http://rzip.samba.org/
 Group: Archiving/Compression
 License: GPL
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: bzip2-devel
 
 %description
