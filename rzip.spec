@@ -3,7 +3,7 @@
 %define release %mkrel 1
 
 Name: %{name}
-Summary: Rzip is a compression program, similar in functionality to gzip or bzip2
+Summary: Compression program, similar in functionality to gzip or bzip2
 Version: %{version}
 Release: %{release}
 Source0: %{name}-%{version}.tar.bz2
