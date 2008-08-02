@@ -1,6 +1,6 @@
 %define name rzip
 %define version 2.1
-%define release %mkrel 4
+%define release %mkrel 5
 
 Name: %{name}
 Summary: Compression program, similar in functionality to gzip or bzip2
