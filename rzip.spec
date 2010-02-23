@@ -1,17 +1,17 @@
-%define name rzip
-%define version 2.1
-%define release %mkrel 6
+%define	name	rzip
+%define	version	2.1
+%define	release	%mkrel 7
 
-Name: %{name}
-Summary: Compression program, similar in functionality to gzip or bzip2
-Version: %{version}
-Release: %{release}
-Source0: %{name}-%{version}.tar.bz2
-URL: http://rzip.samba.org/
-Group: Archiving/Compression
-License: GPLv2+
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildRequires: bzip2-devel
+Name:		%{name}
+Summary:	Compression program, similar in functionality to gzip or bzip2
+Version:	%{version}
+Release:	%{release}
+Source0:	%{name}-%{version}.tar.bz2
+URL:		http://rzip.samba.org/
+Group:		Archiving/Compression
+License:	GPLv2+
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	bzip2-devel
 
 %description
 rzip is a compression program, similar in functionality to gzip or bzip2,
@@ -29,7 +29,7 @@ of rzip over bzip2 is that it is usually faster.
 %setup -q
 
 %build
-%configure
+%configure2_5x
 %make
 
 %install
