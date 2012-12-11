@@ -47,3 +47,51 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man1/rzip.1*
 %{_bindir}/rzip
 
+
+
+%changelog
+* Tue Dec 07 2010 Oden Eriksson <oeriksson@mandriva.com> 2.1-8mdv2011.0
++ Revision: 614802
+- the mass rebuild of 2010.1 packages
+
+* Tue Feb 23 2010 Sandro Cazzaniga <kharec@mandriva.org> 2.1-7mdv2010.1
++ Revision: 510385
+- Use configure2_5x
+- Fix mixed of spaces and tabs
+
+* Mon Jun 22 2009 Jérôme Brenier <incubusss@mandriva.org> 2.1-6mdv2010.0
++ Revision: 388006
+- fix license tag
+
+* Sat Aug 02 2008 Thierry Vignaud <tv@mandriva.org> 2.1-5mdv2009.0
++ Revision: 260477
+- rebuild
+
+* Mon Jul 28 2008 Thierry Vignaud <tv@mandriva.org> 2.1-4mdv2009.0
++ Revision: 251856
+- rebuild
+
+* Mon Feb 18 2008 Thierry Vignaud <tv@mandriva.org> 2.1-2mdv2008.1
++ Revision: 171086
+- rebuild
+- fix "foobar is blabla" summary (=> "blabla") so that it looks nice in rpmdrake
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tv@mandriva.org> 2.1-1mdv2008.1
++ Revision: 126917
+- kill re-definition of %%buildroot on Pixel's request
+- import rzip
+
+
+* Sat May 13 2006 Emmanuel Andry <eandry@mandriva.org> 2.1-1mdk
+- 2.1
+- mkrel
+
+* Fri Jul 22 2005 Lenny Cartier <lenny@mandriva.com> 2.0-2mdk
+- rebuild
+
+* Thu May 06 2004 Lenny Cartier <lenny@mandrakesoft.com> 2.0-1mdk
+- from Robert Weiler <mdk-rpms@robwei.de> : 
+	- First build of rzip for Mandrake
