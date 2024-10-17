@@ -7,7 +7,7 @@ Summary:	Compression program, similar in functionality to gzip or bzip2
 Version:	%{version}
 Release:	%{release}
 Source0:	%{name}-%{version}.tar.bz2
-URL:		http://rzip.samba.org/
+URL:		https://rzip.samba.org/
 Group:		Archiving/Compression
 License:	GPLv2+
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
