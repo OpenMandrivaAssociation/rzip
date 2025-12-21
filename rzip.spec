@@ -11,6 +11,11 @@ URL:		https://rzip.samba.org/
 Group:		Archiving/Compression
 License:	GPLv2+
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	bzip2-devel
 
 %description
